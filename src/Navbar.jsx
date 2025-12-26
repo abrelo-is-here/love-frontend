@@ -63,13 +63,13 @@ const AdminNavbar = () => {
             // Not logged-in state (can be simplified)
             <div className="flex items-center gap-3">
               <h3 className="text-sm font-medium opacity-85">
-                Login As Admin
+           
               </h3>
               <button
                 onClick={handleLogin}
                 className="bg-white text-indigo-700 px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-100 transition duration-200 shadow-md"
               >
-                Login
+               Login As Admin
               </button>
             </div>
           )}
